@@ -1,0 +1,74 @@
+<!<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Avoid Parking Tickets for Life</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style media="screen">
+      .content {
+        margin: 0 auto;
+        padding: 0 2em;
+        max-width: 800px;
+        margin-bottom: 50px;
+        line-height: 1.6em;
+      }
+      .header {
+         margin: 0;
+         color: #333;
+         text-align: center;
+         padding: 2.5em 2em 0;
+         border-bottom: 1px solid #eee;
+       }
+      .header h1 {
+        margin: 0.2em 0;
+        font-size: 3em;
+        font-weight: 300;
+      }
+      input, button { width: 100% !important; }
+      hr {
+        border: none;
+        border-top: 1px solid #eeeeee;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Avoid Parking Tickets for Life</h1>
+    </div>
+    <div class="content">
+      <br />
+      <form class="pure-form pure-form-stacked" action="https://formspree.io/lucaspjwilson@gmail.com" method="POST">
+        <div class="pure-control-group">
+          <label for="times_moved">How many times a week do you need to move your car due to street sweeping?</label>
+          <input id="times_moved" names="times_moved" type="text">
+        </div>
+        <br />
+        <div class="pure-control-group">
+          <label for="tickets">How many tickets have you gotten in a month because of not moving your car due to street sweeping?</label>
+          <input id="tickets" name="tickets" type="text">
+        </div>
+        <br />
+        <div class="pure-control-group">
+          <label for="towed">How many times has your car been towed because of street sweeping?</label>
+          <input id="towed" name="towed" type="text">
+        </div>
+        <br />
+        <div class="pure-control-group">
+          <label for="interested">If there was a way to avoid parking tickets and having your car towed for a monthly fee that is less than the cost of the tickets you pay a month, would you be interested?</label>
+          <select id="interested" name="state">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+        <br />
+        <hr />
+        <br />
+        <div class="pure-controls">
+          <button type="submit" class="pure-button pure-button-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
